@@ -1,0 +1,128 @@
+@media (max-width: 575px)
+{
+	
+}
+
+@media (min-width: 576px)
+{
+	
+}
+
+@media (max-width: 768px)
+{
+	.slider-box{
+		text-align: center;
+	}
+	
+	.slider-box ul{
+		justify-content: center;
+		margin-bottom: 24px;
+	}
+	
+	.about-box{
+		text-align: center;
+	}
+	
+	.about-box ul{
+		justify-content: center;
+	}
+	
+	
+}
+
+@media (min-width: 992px)
+{
+	
+}
+
+@media (max-width: 991px)
+{
+	header button{
+		display: block;
+		position: relative;
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		
+	}
+	
+	header button span:nth-child(1){
+		transition: all 0.5s;
+		display: block;
+	}
+	
+	header button span:nth-child(2){
+		display: block;
+	}
+	
+	header button span:nth-child(3){
+		transition: all 0.5s;
+		display: block;
+	}
+	
+	header button span:nth-child(1).show{
+		display: block;
+		position: absolute;
+		line-height: 40px;
+		transform: rotate(45deg);
+	}
+	
+	header button span:nth-child(2).show{
+		display: none;
+	}
+	
+	header button span:nth-child(3).show{
+		transform: rotate(-45deg);
+	}
+	
+	
+	header ul li a{
+		display: block;
+		color: white;	
+		text-align: center;
+		margin: 5px 0;
+		padding: 7px 0;	
+		background-color: black;
+		transform: scaleY(0);
+		transform-origin: top;
+	}
+	
+	header ul li a:after{
+		display: none;
+	}
+	
+	header ul li:last-child a{
+		margin: 0;
+	}
+	
+	header ul{
+		display: block;
+		position: fixed;
+		padding: 25px;
+		width: 100%;
+		top: 50px;
+		left: 0;
+		transform: scaleY(0);
+		transform-origin: top;
+		transition: all 0.5s;
+	}
+	
+	header ul.show{
+		display: block;
+	}
+	
+	header ul.show li a{
+		top: 0px;
+		transform: scaleY(1);
+	}
+	
+	
+}
+
+
+
+@media (min-width: 1200px)
+{
+	
+}
+
